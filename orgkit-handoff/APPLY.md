@@ -12,8 +12,8 @@ cd chromeplugins
 git checkout cursor/orgkit-org-compare-047e
 git fetch .
 git bundle unbundle path/to/orgkit-org-compare-1.8.1.bundle
-git merge --ff-only e3e1061b2e003eb5ce59a2461207e4c766f70bf4
-# or: git reset --hard e3e1061b2e003eb5ce59a2461207e4c766f70bf4
+git merge --ff-only 5b0f7fe88d1be6dc5bf60cf2c74e7f5ac6a7fe82
+# or: git reset --hard 5b0f7fe88d1be6dc5bf60cf2c74e7f5ac6a7fe82
 git push origin cursor/orgkit-org-compare-047e
 ```
 
