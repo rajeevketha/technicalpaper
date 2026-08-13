@@ -1,0 +1,15 @@
+---
+description: Citation and bibliography hygiene for technical papers
+globs: papers/**/*.{bib,md,tex}
+alwaysApply: false
+---
+
+When working on citations:
+
+- Never invent papers, authors, years, venues, or DOIs.
+- Prefer BibTeX entries the author can verify.
+- Use stable citation keys: `AuthorYYYYShortTitle` or existing project convention.
+- Ensure every strong claim in the draft has a supporting citation or experiment.
+- Flag missing related work categories: closest baseline, classical foundation, concurrent work.
+- Prefer primary sources over blogs when both exist.
+- Keep `references.bib` free of unused junk when preparing submission, unless the author wants a working library.

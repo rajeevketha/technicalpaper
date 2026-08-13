@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-agent"
+version = "0.1.0"
+description = "Technical paper publication agent — guided workflow from idea to camera-ready"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Paper Agent Contributors" }]
+dependencies = ["PyYAML>=6.0.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+paper-agent = "paper_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["paper_agent*"]
+
+[tool.setuptools.package-data]
+paper_agent = [
+  "templates/*.md",
+  "templates/*.tex",
+  "templates/*.bib",
+  "templates/notes/*.md",
+  "prompts/*.md",
+  "checklists/*.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

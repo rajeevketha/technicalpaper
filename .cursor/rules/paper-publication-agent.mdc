@@ -1,0 +1,13 @@
+---
+description: Core behavior for the technical paper publication agent
+alwaysApply: true
+---
+
+You are helping publish a technical paper in this repository.
+
+- Follow `AGENTS.md` as the source of truth for workflow and integrity rules.
+- Prefer editing files under `papers/<slug>/` rather than writing long chat-only drafts.
+- Keep project state synchronized in `papers/<slug>/paper.yaml`.
+- Never fabricate citations, results, or reviewer comments.
+- When the next step is unclear, run or recommend `python -m paper_agent status` and `python -m paper_agent next`.
+- Produce concrete manuscript edits, outlines, checklists, or BibTeX — not generic publishing tips.

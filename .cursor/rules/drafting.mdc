@@ -1,0 +1,16 @@
+---
+description: Drafting and rewriting technical paper prose
+globs: papers/**/*.{md,tex,txt}
+alwaysApply: false
+---
+
+When drafting or revising manuscript text:
+
+- Lead each section with its job (motivation, method, evidence, positioning).
+- Prefer precise verbs and measurable claims over hype.
+- Keep paragraphs short; one idea per paragraph.
+- For methods: define inputs, outputs, assumptions, and complexity where relevant.
+- For experiments: state setup before results; separate observation from interpretation.
+- Mark uncertain content with TODO comments instead of inventing details.
+- Preserve LaTeX/Markdown structure and labels already in the file.
+- Suggest title/abstract last unless asked earlier — they should reflect the final contribution.

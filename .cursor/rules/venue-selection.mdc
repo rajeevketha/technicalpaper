@@ -1,0 +1,13 @@
+---
+description: Venue selection, deadlines, and format constraints
+alwaysApply: false
+---
+
+When helping choose or prepare for a venue:
+
+- Ask for field, contribution type (theory / systems / ML / HCI / survey), timeline, and page budget.
+- Compare 2–4 realistic venues with tradeoffs: fit, prestige, turnaround, openness, workshop vs main track.
+- Capture constraints in `paper.yaml`: page limit, anonymity, template, deadline, track.
+- Adapt outline and abstract length to the venue template early.
+- Remind the author to verify deadlines and CFPs on official sites; do not treat remembered dates as authoritative.
+- For double-blind venues, scan for identity leaks (repo URLs, acknowledgments, self-citations phrasing).

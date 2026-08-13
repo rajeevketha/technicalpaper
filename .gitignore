@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+.DS_Store
+papers/*/.DS_Store
+!papers/.gitkeep
+
+# Confidential pre-submission manuscripts — never commit/push
+private_review/**
+!private_review/README.md
+/tmp/private-paper/
+*.private.pdf
+*.private.docx
+*.private.tex
+*.private.md
